@@ -58,6 +58,11 @@
         - Domain-specific languages
         - Type systems
         - Metaprogramming
+    - title: Automata and Formal Languages
+      items:
+        - Real-time automata
+        - Tree automata
+        - Tree grammars
     - title: Software Engineering
       items:
         - Automatic refactoring
