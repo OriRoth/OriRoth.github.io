@@ -1,12 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - OriRoth
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - SpartanRefactoring/Main
+  - OriRoth/python-typing-machines
+  - OriRoth/fling
+  - OriRoth/treetop

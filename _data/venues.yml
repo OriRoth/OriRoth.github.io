@@ -1,6 +1,7 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ECOOP":
+  url: https://2019.ecoop.org/
+  color: "#e3af02"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"OOPSLA":
+  url: https://2021.splashcon.org/track/splash-2021-oopsla
+  color: "#0033cc"
