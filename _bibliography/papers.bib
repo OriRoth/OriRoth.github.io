@@ -1,7 +1,7 @@
 ---
 ---
 
-@article{Roth:2022b,
+@article{Roth:2023,
     author = {Roth, Ori and Gil, Yossi},
     title = {Fluent APIs in Functional Languages},
     year = {2023},
@@ -19,6 +19,8 @@
     numpages = {26},
     keywords = {embedded DSLs, fluent API, API protocols},
 	abbr={OOPSLA2023},
+	selected={true},
+	pdf={https://dl.acm.org/doi/pdf/10.1145/3586057},
 }
 
 
@@ -31,6 +33,7 @@
 	publisher = {arXiv},
 	year = {2022},
 	copyright = {Creative Commons Attribution 4.0 International},
+	abstract={Grigore showed that Java generics are Turing complete by describing a reduction from Turing machines to Java subtyping. We apply Grigore's algorithm to Python type hints and deduce that they are Turing complete. In addition, we present an alternative reduction in which the Turing machines are simulated in real time, resulting in significantly lower compilation times. Our work is accompanied by a Python implementation of both reductions that compiles Turing machines into Python subtyping machines.},
 	selected={true},
 	pdf={https://arxiv.org/pdf/2208.14755},
 	abbr={arXiv},
@@ -52,6 +55,7 @@
 	articleno = {137},
 	numpages = {27},
 	keywords = {metaprogramming, DSL, fluent API, subtyping, variance},
+	abstract = {This is a study of the computing power of the subtyping machine behind Kennedy and Pierce's nominal subtyping with variance. We depict the lattice of fragments of Kennedy and Pierce's type system and characterize their computing power in terms of regular, context-free, deterministic, and non-deterministic tree languages. Based on the theory, we present Treetop---a generator of C# implementations of subtyping machines. The software artifact constitutes the first feasible (yet POC) fluent API generator to support context-free API protocols in a decidable type system fragment.},
 	abbr={OOPSLA2021},
 	selected={true},
 	pdf={https://dl.acm.org/doi/pdf/10.1145/3485514},
@@ -74,6 +78,7 @@
 	URN =		{urn:nbn:de:0030-drops-108053},
 	doi =		{10.4230/LIPIcs.ECOOP.2019.13},
 	annote =	{Keywords: fluent API, type system, compilation, code generation},
+	abstract = {We present the first general and practical solution of the fluent API problem - an algorithm, that given a deterministic language (equivalently, LR(k), k >= 0 language) encodes it in an unbounded parametric polymorphism type system employing only a polynomial number of types. The theoretical result is accompanied by an actual tool Fling - a fluent API compiler-compiler in the venue of YACC, tailored for embedding DSLs in Java.},
 	abbr={ECOOP},
 	selected={true},
 	pdf={https://drops.dagstuhl.de/opus/volltexte/2019/10805/pdf/LIPIcs-ECOOP-2019-13.pdf},
@@ -86,6 +91,7 @@
 	year={2017},
 	pages={124-128},
 	doi={10.1109/VISSOFT.2017.26},
+	abstract={Care and great effort are often taken to dress program code of libraries, just as model implementations, in its most presentable form, which includes adherence to strict coding standards, careful selection of identifiers, avoiding unnecessary constructs, etc. However, a presentable dress is not a janitor's uniform and is often inferior to the more lax working outfit.The spartanizer is a tool that brings Java code into a canonical, short form. Trying to say the most with the fewest words. In contrast, the athenizer is a tool that expands the code, placing it in a more maintainable form, using plenty of auxiliary variables, many potential locations for breakpoints and for change.The tool reported on here allows developers to interactively use their joystick and its buttons for code navigation, and in particular for zooming-in into the code (athenizing) and zooming-out of it (spartanizing).},
 	abbr={VISSOFT},
 	selected={false},
 }
@@ -97,10 +103,14 @@
 	keywords = {programming languages},
 	number = {3},
 	pages = {1711--1726},
-	title = {{Pluggable Controllers and Nano-Patterns in Java with Lola}},
+	title = {Pluggable Controllers and {Nano-Patterns} in {Java} with {Lola}},
 	url = {https://astesj.com/v02/i03/p211/},
 	volume = {2},
 	year = {2017},
+	abstract={
+Pluggable controllers are a different way to design control constructors such as if, while, do, switch, and operators such as short circuit con-junction (&&) and the “?.” operator of the Swift programming language. Adoption of pluggable controllers enables the final user to modify and extend the control flow constructs (if, while, etc.) of an underlying programming language, the same way they can do if they implement functions such as printf and class String in a standard library.
+In modular, pluggable controller based language design, beside core control constructors, there are others, defined in standard libraries, with the purpose of augmenting and enriching the language. These pluggable controllers are extensible and replaceable. Being less intertwined in the main language, control constructor libraries can evolve independently from it, and their releases do not mandate new language releases.
+We illustrate the implementation of pluggable controllers using Lola, a powerful language-independent preprocessor and macro language. We demonstrate the introduction of new pluggable controllers with two case studies. The implementation of a Java stenography based on prevalent Java idioms, called “nano-patterns” or nanos, and the introduction in Java of new code constructs inspired by the Mathematica language’s commands.},
 	abbr={ASTESJ},
 	selected={false},
 	pdf={https://www.astesj.com/?smd_process_download=1&download_id=2933},

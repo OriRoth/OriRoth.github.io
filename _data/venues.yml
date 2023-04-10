@@ -1,11 +1,14 @@
 "ECOOP":
   url: https://2019.ecoop.org/
   color: "#e3af02"
+  name: "ECOOP"
 
 "OOPSLA2021":
   url: https://2021.splashcon.org/track/splash-2021-oopsla
   color: "#0033cc"
+  name: "OOPSLA"
 
 "OOPSLA2023":
   url: https://2023.splashcon.org/track/splash-2023-oopsla
   color: "#0033cc"
+  name: "OOPSLA"
